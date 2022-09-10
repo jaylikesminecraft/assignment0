@@ -22,8 +22,7 @@ fun main() {
 
     print("Enter the sides for a equilateral triangle: ")
     myEquilateralTriangle.setDimensions(scanner.nextDouble(), scanner.nextDouble(), scanner.nextDouble())
-    var area = myEquilateralTriangle.getArea()
-    println("${myEquilateralTriangle.name} area = ${area}")
+    println("${myEquilateralTriangle.name} area = ${myEquilateralTriangle.getArea()}")
 
 
 }
